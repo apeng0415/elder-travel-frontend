@@ -1,0 +1,18 @@
+[
+  { "path": "/", "file": "index.html", "name": "登录" },
+  { "path": "/elderly", "file": "index.html", "name": "老人AI助手" },
+  { "path": "/elderly/homestays", "file": "index.html", "name": "找民宿" },
+  { "path": "/elderly/health", "file": "index.html", "name": "健康" },
+  { "path": "/elderly/me", "file": "index.html", "name": "我的" },
+  { "path": "/family", "file": "index.html", "name": "家属端" },
+  { "path": "/family/trips", "file": "index.html", "name": "老人行程" },
+  { "path": "/family/health", "file": "index.html", "name": "老人健康" },
+  { "path": "/family/alerts", "file": "index.html", "name": "异常通知" },
+  { "path": "/family/book", "file": "index.html", "name": "代预约" },
+  { "path": "/admin", "file": "index.html", "name": "管理看板" },
+  { "path": "/admin/users", "file": "index.html", "name": "用户管理" },
+  { "path": "/admin/homestays", "file": "index.html", "name": "民宿管理" },
+  { "path": "/admin/bookings", "file": "index.html", "name": "预约管理" },
+  { "path": "/admin/tags", "file": "index.html", "name": "标签审核" },
+  { "path": "/admin/notices", "file": "index.html", "name": "公告管理" }
+]

@@ -1,0 +1,19 @@
+
+> miaoda-react-standard-webapp-app@0.1.0 build
+> node build.mjs
+
+[36mvite v8.2.2 [32mbuilding client environment for production...[36m[39m
+transforming...
+✓ 2480 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/client/index.html                     0.96 kB │ gzip:   0.52 kB
+dist/client/assets/index-BCR92tWH.css    121.62 kB │ gzip:  19.27 kB
+dist/client/assets/index-DEIU_pg5.js   1,448.03 kB │ gzip: 469.23 kB
+
+[32m✓ built in 1.52s[39m
+[33m[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m

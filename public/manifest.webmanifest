@@ -1,0 +1,14 @@
+{
+  "name": "乡村旅居适老化服务",
+  "short_name": "乡村旅居",
+  "description": "面向老年游客的乡村旅居预约与健康关怀",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAF6F0",
+  "theme_color": "#F07A22",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
