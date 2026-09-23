@@ -120,7 +120,7 @@ function collectRoutePaths(srcDir: string): string[] {
 export default defineConfig(({ command }) => ({
   plugins: [react(), tailwindcss(), miaodaOutputPlugin(), sparkJsonPlugin()],
   // 生产构建：JS/CSS 引用带 CDN 前缀（无 CDN 时退回 base path）；dev 恒为 /
-  base: command === 'build' ? cdnPrefix || basePath : '/',
+  base: '/',
   define: {
     // 路由 basename 与资源前缀解耦，单独注入
     'import.meta.env.MIAODA_CLIENT_BASE_PATH': JSON.stringify(basePath),
